@@ -9,7 +9,7 @@ public class Assignment {
         ArrayList<Integer> temp1  = new ArrayList<>(Arrays.asList(1, 2, 10));
         ArrayList<Integer> temp2  = new ArrayList<>(Arrays.asList(2, 3, 20));
         ArrayList<Integer> temp3  = new ArrayList<>(Arrays.asList(2, 5, 25));
-        ArrayList<ArrayList<Integer>> B = new ArrayList<ArrayList<>>();
+        ArrayList<ArrayList<Integer>> B = new ArrayList<ArrayList<Integer>>();
         B.add(temp1);
         B.add(temp2);
         B.add(temp3);
