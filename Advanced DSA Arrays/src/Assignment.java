@@ -1,16 +1,15 @@
 import java.util.ArrayList;
 import java.util.Arrays;
-import java.util.Collection;
 
 public class Assignment {
 
     public static void main(String[] args) {
         int A = 5;
 //        int[][] B = {{1, 2, 10}, {2, 3, 20}, {2, 5, 25}};
-        ArrayList<Integer> temp1  = new ArrayList<Integer>(Arrays.asList(1, 2, 10));
-        ArrayList<Integer> temp2  = new ArrayList<Integer>(Arrays.asList(2, 3, 20));
-        ArrayList<Integer> temp3  = new ArrayList<Integer>(Arrays.asList(2, 5, 25));
-        ArrayList<ArrayList<Integer>> B = new ArrayList<ArrayList<Integer>>();
+        ArrayList<Integer> temp1  = new ArrayList<>(Arrays.asList(1, 2, 10));
+        ArrayList<Integer> temp2  = new ArrayList<>(Arrays.asList(2, 3, 20));
+        ArrayList<Integer> temp3  = new ArrayList<>(Arrays.asList(2, 5, 25));
+        ArrayList<ArrayList<Integer>> B = new ArrayList<ArrayList<>>();
         B.add(temp1);
         B.add(temp2);
         B.add(temp3);
@@ -19,7 +18,7 @@ public class Assignment {
     }
 
     public static ArrayList<Integer> solve(int A, ArrayList<ArrayList<Integer>> B) {
-        ArrayList<Integer> arr = new ArrayList<Integer>();
+        ArrayList<Integer> arr = new ArrayList<>();
         for(int i = 0; i<A; i++) {
             arr.add(0);
         }
